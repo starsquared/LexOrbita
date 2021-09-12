@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">LexOrbita</a>
+
+    <ul class="navbar-nav mr-auto">
+      <li
+        class="nav-item"
+        *ngIf="!(accountService.currentUser$ | async) && loggedType == 'L'"
+      >
+        <a class="nav-link" href="#">Find Lawyers</a>
+      </li>
+      <li class="nav-item" *ngIf="!(accountService.currentUser$ | async)">
+        <a class="nav-link" href="#">News</a>
+      </li>
+      <li class="nav-item" *ngIf="!(accountService.currentUser$ | async)">
+        <a class="nav-link" href="#">Blogs</a>
+      </li>
+      <li class="nav-item" *ngIf="accountService.currentUser$ | async">
+        <a class="nav-link" href="#">Lawyer1</a>
+      </li>
+      <li class="nav-item" *ngIf="accountService.currentUser$ | async">
+        <a class="nav-link" href="#">Lawyer2</a>
+      </li>
+      <li class="nav-item" *ngIf="accountService.currentUser$ | async">
+        <a class="nav-link" href="#">Client1</a>
+      </li>
+      <li class="nav-item" *ngIf="accountService.currentUser$ | async">
+        <a class="nav-link" href="#">Client2</a>
+      </li>
+    </ul>
+
+    <div style="margin-right: 35px">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#"> For Lawyers</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="dropdown" *ngIf="accountService.currentUser$ | async" dropdown>
+      <a class="dropdown-toggle text-light" dropdownToggle>Welcome user</a>
+      <div class="dropdown-menu mt-3" *dropdownMenu>
+        <a class="dropdown-item">Edit Profile</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" (click)="logout()">Logout</a>
+      </div>
+    </div>
+
+    <form
+      *ngIf="!(accountService.currentUser$ | async)"
+      #loginForm="ngForm"
+      class="form-inline mt-2 mt-md-0"
+      (ngSubmit)="login()"
+      autocomplete="off"
+    >
+      <input
+        class="form-control mr-sm-2"
+        type="text"
+        name="username"
+        [(ngModel)]="model.username"
+        placeholder="Username"
+        required
+      />
+      <input
+        class="form-control mr-sm-2"
+        type="password"
+        name="password"
+        [(ngModel)]="model.password"
+        placeholder="Password"
+        required
+      />
+      <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
+    </form>
+  </div>
+</nav>
