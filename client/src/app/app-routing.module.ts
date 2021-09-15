@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ClientDashboardComponent } from './clients/client-dashboard/client-dashboard.component';
+import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
 import { HomeComponent } from './home/home.component';
 import { LawyerDashboardComponent } from './lawyers/lawyer-dashboard/lawyer-dashboard.component';
 import { LawyerDetailComponent } from './lawyers/lawyer-detail/lawyer-detail.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
       { path: 'lawyers/:id', component: LawyerDetailComponent },
     ],
   },
+  { path: 'errors', component: TestErrorsComponent },
   { path: 'lawyers', component: LawyerListComponent },
   { path: '**', component: HomeComponent, pathMatch: 'full' },
 ];

@@ -1,0 +1,412 @@
+[
+  {
+    "UserName": "kochraymond@apexia.com",
+    "FirstName": "Hunter",
+    "LastName": "Talley",
+    "AddressLine1": "343",
+    "AddressLine2": "Clinton Street",
+    "City": "Canterwood",
+    "State": "Vermont",
+    "Country": "Sweden",
+    "ZipCode": "38858",
+    "Phone": "+1 (972) 418-2927",
+    "AppUserType": "L",
+    "Created": "2019-10-29",
+    "LastActive": "2020-06-17",
+    "Introduction": "Aliquip sit anim enim occaecat eiusmod aliqua minim eiusmod ea Lorem proident. In sit cillum consequat qui id fugiat eiusmod sunt reprehenderit ut sunt fugiat. Mollit quis elit quis officia nostrud commodo ad elit quis. Consectetur laborum ut culpa elit minim ipsum non magna proident. Reprehenderit elit anim deserunt aute anim minim anim sunt fugiat aute aute est. Elit consectetur eu laborum cupidatat esse ex. Cillum irure dolor culpa quis nostrud qui in elit Lorem eu nulla qui veniam dolor.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "SUREPLEX",
+        "DateLawDegreeObtained": "2020-05-05",
+        "BarCouncilRegisteredAt": "Calpine",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/women/53.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/women/59.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/36.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "huntertalley@sureplex.com",
+    "FirstName": "Bridget",
+    "LastName": "Robles",
+    "AddressLine1": "158",
+    "AddressLine2": "Whitwell Place",
+    "City": "Rossmore",
+    "State": "Texas",
+    "Country": "Syria",
+    "ZipCode": "84900",
+    "Phone": "+1 (822) 568-2333",
+    "AppUserType": "L",
+    "Created": "2019-06-11",
+    "LastActive": "2020-05-07",
+    "Introduction": "Ex elit commodo exercitation adipisicing sunt exercitation anim adipisicing excepteur eu tempor Lorem do. Proident esse voluptate deserunt veniam velit est deserunt excepteur sint. Cillum id consequat officia occaecat eiusmod sint adipisicing proident non in enim et ea.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "ICOLOGY",
+        "DateLawDegreeObtained": "2020-06-18",
+        "BarCouncilRegisteredAt": "Terlingua",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/women/61.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/women/27.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/27.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "bridgetrobles@icology.com",
+    "FirstName": "Stone",
+    "LastName": "Vargas",
+    "AddressLine1": "559",
+    "AddressLine2": "Newel Street",
+    "City": "Grayhawk",
+    "State": "Arizona",
+    "Country": "Niue",
+    "ZipCode": "40733",
+    "Phone": "+1 (843) 488-2435",
+    "AppUserType": "L",
+    "Created": "2020-01-26",
+    "LastActive": "2020-05-14",
+    "Introduction": "Anim labore incididunt enim laboris laboris reprehenderit culpa voluptate eiusmod velit est exercitation sunt eiusmod. Officia ullamco do dolore ea adipisicing laboris anim incididunt do ipsum cupidatat voluptate. Exercitation commodo Lorem ut ex officia adipisicing sit in labore exercitation qui labore mollit cupidatat. Excepteur officia exercitation incididunt velit non cillum.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "XSPORTS",
+        "DateLawDegreeObtained": "2020-06-27",
+        "BarCouncilRegisteredAt": "Lemoyne",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/women/99.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/women/91.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/82.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "stonevargas@xsports.com",
+    "FirstName": "Oliver",
+    "LastName": "Clemons",
+    "AddressLine1": "238",
+    "AddressLine2": "Laurel Avenue",
+    "City": "Yukon",
+    "State": "North Carolina",
+    "Country": "Tajikistan",
+    "ZipCode": "52724",
+    "Phone": "+1 (850) 438-2769",
+    "AppUserType": "L",
+    "Created": "2020-04-15",
+    "LastActive": "2020-06-03",
+    "Introduction": "Laboris nulla laborum nostrud commodo voluptate labore elit enim consequat. Officia consectetur pariatur consectetur enim elit laboris quis. Sunt eu consectetur velit ex.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "ZEAM",
+        "DateLawDegreeObtained": "2020-05-26",
+        "BarCouncilRegisteredAt": "Otranto",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/women/80.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/women/8.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/80.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "oliverclemons@zeam.com",
+    "FirstName": "Nannie",
+    "LastName": "Holden",
+    "AddressLine1": "259",
+    "AddressLine2": "Fairview Place",
+    "City": "Ilchester",
+    "State": "Delaware",
+    "Country": "British Indian Ocean Territory",
+    "ZipCode": "68153",
+    "Phone": "+1 (838) 452-2907",
+    "AppUserType": "L",
+    "Created": "2019-08-07",
+    "LastActive": "2020-06-17",
+    "Introduction": "Irure aute aliquip reprehenderit ut ad ipsum reprehenderit et minim non enim id ex. Elit occaecat id commodo labore velit sunt ut eu. Eu officia ipsum et eu minim enim nulla eiusmod consequat.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "XUMONK",
+        "DateLawDegreeObtained": "2020-05-07",
+        "BarCouncilRegisteredAt": "Rose",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/women/14.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/women/75.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/88.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "alliebarton@quordate.com",
+    "FirstName": "Ursula",
+    "LastName": "Tyler",
+    "AddressLine1": "146",
+    "AddressLine2": "Monaco Place",
+    "City": "Kenmar",
+    "State": "New Jersey",
+    "Country": "Lebanon",
+    "ZipCode": "68707",
+    "Phone": "+1 (955) 434-2741",
+    "AppUserType": "L",
+    "Created": "2019-08-02",
+    "LastActive": "2020-05-05",
+    "Introduction": "Esse tempor enim Lorem pariatur eu proident est. Ut nostrud incididunt et duis aliquip enim esse sint irure nulla et. Dolore veniam enim esse nostrud id mollit pariatur excepteur officia aliquip. Proident cillum veniam minim quis ullamco magna aliqua elit commodo qui fugiat irure irure. Cillum occaecat do nostrud fugiat ad culpa et voluptate. Eiusmod in ut esse consectetur mollit. Aliquip commodo duis dolor ullamco ex exercitation ex.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "PORTICO",
+        "DateLawDegreeObtained": "2020-06-06",
+        "BarCouncilRegisteredAt": "Alafaya",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/men/97.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/men/80.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/56.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "ursulatyler@portico.com",
+    "FirstName": "Bush",
+    "LastName": "Wilkerson",
+    "AddressLine1": "494",
+    "AddressLine2": "Gaylord Drive",
+    "City": "Loveland",
+    "State": "New Hampshire",
+    "Country": "Yemen",
+    "ZipCode": "46277",
+    "Phone": "+1 (830) 431-2001",
+    "AppUserType": "L",
+    "Created": "2019-09-09",
+    "LastActive": "2020-06-06",
+    "Introduction": "Do culpa officia aute aliquip reprehenderit irure do est incididunt elit enim qui. Sunt aliqua officia aliquip non est excepteur aliqua non aliquip tempor. Magna Lorem et pariatur excepteur nisi dolor aliqua proident deserunt amet dolor dolore veniam. Ut veniam in incididunt ad velit exercitation nisi sint. Ullamco ullamco do eu irure dolore pariatur commodo.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "SATIANCE",
+        "DateLawDegreeObtained": "2020-06-18",
+        "BarCouncilRegisteredAt": "Gibsonia",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/men/15.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/men/65.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/98.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "bushwilkerson@satiance.com",
+    "FirstName": "Massey",
+    "LastName": "Ortiz",
+    "AddressLine1": "708",
+    "AddressLine2": "Allen Avenue",
+    "City": "Gloucester",
+    "State": "Iowa",
+    "Country": "United Arab Emirates",
+    "ZipCode": "66117",
+    "Phone": "+1 (840) 594-3227",
+    "AppUserType": "L",
+    "Created": "2019-02-12",
+    "LastActive": "2020-05-29",
+    "Introduction": "Est consectetur deserunt quis laboris ad sit fugiat duis dolore sit voluptate duis. Sint exercitation et aliquip Lorem. Excepteur ea aliquip elit elit. Occaecat reprehenderit commodo laborum id mollit eu.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "CUJO",
+        "DateLawDegreeObtained": "2020-06-07",
+        "BarCouncilRegisteredAt": "Marysville",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/men/11.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/men/1.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/32.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "masseyortiz@cujo.com",
+    "FirstName": "Roberts",
+    "LastName": "Lancaster",
+    "AddressLine1": "581",
+    "AddressLine2": "Lincoln Road",
+    "City": "Bradenville",
+    "State": "North Carolina",
+    "Country": "Japan",
+    "ZipCode": "27465",
+    "Phone": "+1 (927) 433-3471",
+    "AppUserType": "L",
+    "Created": "2019-07-26",
+    "LastActive": "2020-05-24",
+    "Introduction": "Consectetur enim amet sit duis cupidatat sunt. Laboris sit esse commodo excepteur minim. Magna do anim occaecat pariatur anim non tempor anim aute ullamco elit commodo sit et. Sint qui duis pariatur labore amet non amet adipisicing proident enim aliqua fugiat. Proident sunt ipsum voluptate ad enim incididunt culpa quis. Proident ea esse est id proident ullamco exercitation incididunt cillum in ea ut.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "ZAPPIX",
+        "DateLawDegreeObtained": "2020-05-16",
+        "BarCouncilRegisteredAt": "Venice",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/men/84.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/men/64.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/24.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "robertslancaster@zappix.com",
+    "FirstName": "Marsh",
+    "LastName": "Parsons",
+    "AddressLine1": "959",
+    "AddressLine2": "Metrotech Courtr",
+    "City": "Avoca",
+    "State": "Connecticut",
+    "Country": "France, Metropolitan",
+    "ZipCode": "65127",
+    "Phone": "+1 (846) 550-2732",
+    "AppUserType": "L",
+    "Created": "2020-02-16",
+    "LastActive": "2020-06-26",
+    "Introduction": "Nostrud nisi occaecat dolore ea eiusmod et ipsum ipsum voluptate culpa. Dolore laboris cillum labore do deserunt velit laborum aliqua ipsum duis deserunt sit id in. Consequat esse reprehenderit mollit sint officia ex ipsum ullamco culpa occaecat Lorem. Irure id ipsum exercitation nostrud ipsum quis ex culpa enim culpa. Nulla sit culpa veniam veniam fugiat deserunt exercitation. Ad amet adipisicing aliqua aliqua. Sint consectetur labore aliquip in elit amet esse ad occaecat consequat consectetur occaecat commodo ea.\r\n",
+    "LawyerDetails": [
+      {
+        "LawCollegeStudiedIn": "PLASMOX",
+        "DateLawDegreeObtained": "2020-06-01",
+        "BarCouncilRegisteredAt": "Avalon",
+        "CorporateExperience": "I have worked at place XYZ for 15 years",
+        "LawFirmExperience": "I have worked at place XYZ for 15 years",
+        "IndependentPracticeExperience": "I have worked at place XYZ for 15 years",
+        "IdentityCardUrl": "https://randomuser.me/api/portraits/men/26.jpg",
+        "BarCouncilRegistrationUrl": "https://randomuser.me/api/portraits/men/92.jpg"
+      }
+    ],
+    "Interests": [
+      {
+        "Interest1": "Industrial Law",
+        "Interest2": "Environmental Law",
+        "Interest3": "GDPR"
+      }
+    ],
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/40.jpg",
+        "IsMain": true
+      }
+    ]
+  }
+]

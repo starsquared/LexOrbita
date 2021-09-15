@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 
-namespace API.Entities
+namespace API.DTOs
 {
-    public class AppUser
+    public class UserToDisplayDto
     {
         public int Id { get; set; }
-        public string UserName { get; set; }
+        public string Username { get; set; }
+        public string PhotoUrl { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string AddressLine1 { get; set; }
@@ -16,16 +17,13 @@ namespace API.Entities
         public string Country { get; set; }
         public string ZipCode { get; set; }
         public string Phone { get; set; }
-        public byte[] PasswordHash { get; set; }
-        public byte[] PasswordSalt { get; set; }
-
         public string AppUserType { get; set; }
-        public DateTime Created { get; set; } = DateTime.Now;
-        public DateTime LastActive { get; set; } = DateTime.Now;
+        public DateTime Created { get; set; } 
+        public DateTime LastActive { get; set; } 
         public string Introduction { get; set; }
-        public ICollection<Interest> Interests { get; set; }
-        public ICollection<Photo> Photos { get; set; }
+        public ICollection<InterestDto> Interests { get; set; }
+        public ICollection<PhotoDto> Photos { get; set; }
 
-        public ICollection<LawyerDetail> LawyerDetails { get; set; }
+        public ICollection<LawyerDetailDto> LawyerDetails { get; set; }
     }
 }
