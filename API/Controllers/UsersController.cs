@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [Authorize]
+   
     public class UsersController : BaseApiController
     {
         private readonly IMapper _mapper;
@@ -26,7 +26,6 @@ namespace API.Controllers
         }
 
         [HttpGet]
-
         public async Task<ActionResult<IEnumerable<UserToDisplayDto>>> GetMultipleUsers()
         {
             var users = await _userRepository.GetUsersToDisplayAsync();
@@ -36,6 +35,7 @@ namespace API.Controllers
         }
 
         [HttpGet("{username}")]
+         [Authorize]
         public async Task<ActionResult<UserToDisplayDto>> GetSingleUser(string username)
         {
             return await _userRepository.GetUserToDisplayAsync(username);

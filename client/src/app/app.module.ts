@@ -18,6 +18,7 @@ import { LawyerDashboardComponent } from './lawyers/lawyer-dashboard/lawyer-dash
 import { SharedModule } from './_modules/shared.module';
 import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
 import { ErrorInterceptor } from './_interceptors/error.interceptor';
+import { LawyerCardComponent } from './lawyers/lawyer-card/lawyer-card.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ErrorInterceptor } from './_interceptors/error.interceptor';
     ClientDashboardComponent,
     LawyerDashboardComponent,
     TestErrorsComponent,
+    LawyerCardComponent,
   ],
   imports: [
     BrowserModule,
