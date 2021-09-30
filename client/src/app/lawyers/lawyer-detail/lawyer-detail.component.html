@@ -1,1 +1,49 @@
-<p>lawyer-detail works!</p>
+<div class="row" *ngIf="lawyer">
+  <div class="col-4">
+    <div class="card">
+      <img
+        src="{{ lawyer.photoUrl || './assets/user.png' }}"
+        alt="{{ lawyer.frstname }}"
+        class="card-img-top img-thumbnail"
+      />
+      <div class="card-body">
+        <div>
+          <strong>Location:</strong>
+          <p>{{ lawyer.city }}</p>
+        </div>
+        <div>
+          <strong>College Studied In:</strong>
+          <p>{{ lawyer.lawCollegeStudiedIn }}</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="btn-group d-flex">
+          <button class="btn btn-success">Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-8">
+    <tabset class="member-tabset">
+      <tab heading="About {{ lawyer.firstname }}">
+        <h4>Description</h4>
+        <p>{{ lawyer.introduction }}</p>
+      </tab>
+      <tab heading="About {{ lawyer.firstname }}">
+        <h4>Description</h4>
+        <p>{{ lawyer.introduction }}</p>
+      </tab>
+      <tab heading="About {{ lawyer.firstname }}">
+        <h4>Description</h4>
+        <p>{{ lawyer.introduction }}</p>
+      </tab>
+      <tab heading="Credentials {{ lawyer.firstname }}">
+        <ngx-gallery
+          [options]="galleryOptions"
+          [images]="galleryImages"
+          style="display: inline-block; margin-bottom: 20px"
+        ></ngx-gallery>
+      </tab>
+    </tabset>
+  </div>
+</div>

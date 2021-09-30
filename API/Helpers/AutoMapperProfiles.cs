@@ -11,7 +11,12 @@ namespace API.Helpers
         {
             CreateMap<AppUser, UserToDisplayDto>()
                 .ForMember(dest => dest.PhotoUrl, 
-                opt => opt.MapFrom(src => src.Photos.FirstOrDefault(x => x.IsMain).Url));
+                opt => opt.MapFrom(src => src.Photos.FirstOrDefault(x => x.IsMain).Url))
+                .ForMember(des => des.LawCollegeStudiedIn, 
+                opt => opt.MapFrom(src => src.LawyerDetails.FirstOrDefault().LawCollegeStudiedIn))
+                .ForMember(x => x.Interest1, 
+                opt => opt.MapFrom(src => src.Interests.FirstOrDefault().Interest1));
+
             CreateMap<Photo, PhotoDto>();
             CreateMap<Interest, InterestDto>();
             CreateMap<LawyerDetail, LawyerDetailDto>();

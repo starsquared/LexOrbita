@@ -16,6 +16,6 @@ export class UserToDisplayService {
   }
 
   getSingleLawyer(username: string) {
-    return this.http.get<userToDisplay[]>(this.baseUrl + 'users/' + username);
+    return this.http.get<userToDisplay>(this.baseUrl + 'users/' + username);
   }
 }

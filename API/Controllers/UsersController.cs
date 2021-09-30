@@ -35,7 +35,7 @@ namespace API.Controllers
         }
 
         [HttpGet("{username}")]
-         [Authorize]
+        //  [Authorize]
         public async Task<ActionResult<UserToDisplayDto>> GetSingleUser(string username)
         {
             return await _userRepository.GetUserToDisplayAsync(username);

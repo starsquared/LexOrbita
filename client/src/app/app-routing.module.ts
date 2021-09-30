@@ -17,9 +17,9 @@ const routes: Routes = [
     children: [
       { path: 'clients', component: ClientDashboardComponent },
       { path: 'lawyers/lawyer-dashboard', component: LawyerDashboardComponent },
-      { path: 'lawyers/:id', component: LawyerDetailComponent },
     ],
   },
+  { path: 'lawyerDetail/:username', component: LawyerDetailComponent },
   { path: 'errors', component: TestErrorsComponent },
   { path: 'lawyers', component: LawyerListComponent },
   { path: '**', component: HomeComponent, pathMatch: 'full' },

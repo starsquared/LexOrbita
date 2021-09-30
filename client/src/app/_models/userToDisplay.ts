@@ -19,6 +19,7 @@ export interface userToDisplay {
   created: Date;
   lastActive: Date;
   introduction: string;
+  lawCollegeStudiedIn: string;
   interests: interest[];
   photos: photo[];
   lawyerDetails: lawyerDetail[];

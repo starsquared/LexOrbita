@@ -23,6 +23,7 @@ namespace API.Entities
         public DateTime Created { get; set; } = DateTime.Now;
         public DateTime LastActive { get; set; } = DateTime.Now;
         public string Introduction { get; set; }
+        
         public ICollection<Interest> Interests { get; set; }
         public ICollection<Photo> Photos { get; set; }
 

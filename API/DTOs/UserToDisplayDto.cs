@@ -21,6 +21,10 @@ namespace API.DTOs
         public DateTime Created { get; set; } 
         public DateTime LastActive { get; set; } 
         public string Introduction { get; set; }
+
+        public string LawCollegeStudiedIn { get; set; }
+
+        public string Interest1 { get; set; }
         public ICollection<InterestDto> Interests { get; set; }
         public ICollection<PhotoDto> Photos { get; set; }
 
